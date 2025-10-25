@@ -1,0 +1,21 @@
+[project]
+name = "exercise-tracker"
+version = "0.1.0"
+description = "CLI and toolkit for tracking exercise repetitions"
+authors = [
+    { name = "Denis Shevchenko", email = "shadow.blaz@mail.ru" }
+]
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
