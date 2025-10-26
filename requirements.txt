@@ -1,0 +1,4 @@
+# Optional dependencies required to run the FastAPI HTTP layer.
+fastapi
+uvicorn[standard]
+prometheus-fastapi-instrumentator
